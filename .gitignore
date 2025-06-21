@@ -1,22 +1,17 @@
-# Ignore full dataset
+# Ignore full dataset folder (images + labels)
 yolo_hotspot_dataset/
 
-# Ignore training weights (if model already shared separately)
+# Ignore training weights folder only
 hotspot_runs/train/weights/
 
-# Ignore generated caches
+# Allow tracking of training result images and CSV
+!hotspot_runs/train/*.png
+!hotspot_runs/train/*.csv
+
+# Ignore cache files
 *.cache
 
-# Ignore large media files (optional — if not needed in repo)
-*.jpg
-*.jpeg
-*.png
-*.mp4
 
-# Ignore tree output files
-tree.txt
-tree2.txt
-
-# Ignore __pycache__ folders and Python compiled files
+# Ignore Python cache
 __pycache__/
 *.pyc
