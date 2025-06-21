@@ -1,0 +1,22 @@
+# Ignore full dataset
+yolo_hotspot_dataset/
+
+# Ignore training weights (if model already shared separately)
+hotspot_runs/train/weights/
+
+# Ignore generated caches
+*.cache
+
+# Ignore large media files (optional — if not needed in repo)
+*.jpg
+*.jpeg
+*.png
+*.mp4
+
+# Ignore tree output files
+tree.txt
+tree2.txt
+
+# Ignore __pycache__ folders and Python compiled files
+__pycache__/
+*.pyc

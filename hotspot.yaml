@@ -1,0 +1,6 @@
+path: C:\\Users\\kabhi\\OneDrive\\Desktop\\Hotspot\\yolo_hotspot_dataset
+train: images/train
+val: images/val
+
+nc: 1
+names: ['hotspot'] 
